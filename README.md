@@ -71,6 +71,9 @@ Follow the next instructions to create a new project on Firebase.
 
 ![FIREBASE](https://github.com/user-attachments/assets/5109d5f6-9ba4-46da-b2d8-9bf9a333ae9a)
 
+![image](https://github.com/user-attachments/assets/f850af05-3f85-4889-885f-da0adb27816e)
+
+
 **4.** Disable the option Enable Google Analytics for this project as it is not needed and click Create project.
 
 ![FIREBASE (1)](https://github.com/user-attachments/assets/526420ba-19c7-4b5a-b19d-222a12aaa2a0)
