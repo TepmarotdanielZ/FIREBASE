@@ -13,6 +13,11 @@ In a later tutorial, you’ll learn how to create a Firebase web app that you ca
     <img src="https://github.com/user-attachments/assets/4586ddc4-6f7f-47ed-aa09-de0106e87a92" alt="Description of the image" />  
 </div>
 
+<p align="center">
+<img src="TEST_2.jpg" alt="Example Image" width="400"/>
+</p>
+
+![TEST_2](https://github.com/user-attachments/assets/0d58f72b-b61e-4368-9804-c9ec410f085d)
 
 
 Firebase is Google’s mobile application development platform that helps you build, improve, and grow your app. It has many services used to manage data from any Android, IOS, or web application.
