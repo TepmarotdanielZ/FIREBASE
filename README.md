@@ -20,7 +20,7 @@ In a later tutorial, you’ll learn how to create a Firebase web app that you ca
     <img src="https://github.com/user-attachments/assets/4586ddc4-6f7f-47ed-aa09-de0106e87a92" alt="Description of the image" />  
 </p>
 
-
+![Description of the image](https://github.com/user-attachments/assets/4586ddc4-6f7f-47ed-aa09-de0106e87a92)
 
 
 Firebase is Google’s mobile application development platform that helps you build, improve, and grow your app. It has many services used to manage data from any Android, IOS, or web application.
