@@ -79,11 +79,12 @@ Follow the next instructions to create a new project on Firebase.
 
 **5.** It will take a few seconds setting up your project. Then, click Continue when it’s ready.
 
-![image](https://github.com/user-attachments/assets/0bdbcb7a-491d-4fa1-a8b8-984dca093435)
+![image](https://github.com/user-attachments/assets/72c14006-0037-489e-a455-f673a7ce445f)
+
 
 **6.** You’ll be redirected to your Project console page.
 
-![image](https://github.com/user-attachments/assets/aad30efb-2c59-4729-aad5-ac69ec7ddeb2)
+![image](https://github.com/user-attachments/assets/5124e440-ff97-4523-9c71-85f4891950ca)
 
 
 ## 2. SET AUTHENTICATION METHODS
