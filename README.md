@@ -69,18 +69,16 @@ Follow the next instructions to create a new project on Firebase.
 
 **3.** Give a name to your project, for example: `FIREBASE`.
 
-![FIREBASE](https://github.com/user-attachments/assets/5109d5f6-9ba4-46da-b2d8-9bf9a333ae9a)
-
 ![image](https://github.com/user-attachments/assets/f850af05-3f85-4889-885f-da0adb27816e)
 
 
 **4.** Disable the option Enable Google Analytics for this project as it is not needed and click Create project.
 
-![FIREBASE (1)](https://github.com/user-attachments/assets/526420ba-19c7-4b5a-b19d-222a12aaa2a0)
+![image](https://github.com/user-attachments/assets/526420ba-19c7-4b5a-b19d-222a12aaa2a0)
 
 **5.** It will take a few seconds setting up your project. Then, click Continue when it’s ready.
 
-![FIREBASE (2)](https://github.com/user-attachments/assets/0bdbcb7a-491d-4fa1-a8b8-984dca093435)
+![image](https://github.com/user-attachments/assets/0bdbcb7a-491d-4fa1-a8b8-984dca093435)
 
 **6.** You’ll be redirected to your Project console page.
 
