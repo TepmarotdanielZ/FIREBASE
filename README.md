@@ -4,6 +4,9 @@ This guide will get you started quickly with Firebase using the ESP32 board. Fir
 
 ![image](https://github.com/user-attachments/assets/c9948ea4-8137-4b69-bf02-59db1f8aabac)
 
+![TEST_1](https://github.com/user-attachments/assets/1acb2162-ccf9-4aaf-a111-f5c1f19a525d)
+
+
 In a later tutorial, you’ll learn how to create a Firebase web app that you can access from anywhere to monitor and control your ESP32 using Firebase’s real-time database:
 
 ## 1. WHAT IS FIREBASE?
