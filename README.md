@@ -74,7 +74,8 @@ Follow the next instructions to create a new project on Firebase.
 
 **4.** Disable the option Enable Google Analytics for this project as it is not needed and click Create project.
 
-![image](https://github.com/user-attachments/assets/526420ba-19c7-4b5a-b19d-222a12aaa2a0)
+![image](https://github.com/user-attachments/assets/3144bfff-43cf-42d0-9970-3576a114d799)
+
 
 **5.** It will take a few seconds setting up your project. Then, click Continue when it’s ready.
 
