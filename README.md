@@ -2,18 +2,13 @@
 
 This guide will get you started quickly with Firebase using the ESP32 board. Firebase is Google’s mobile application development platform that includes many services to manage data from IOS, Android, or web applications. You’ll create a Firebase project with a realtime database (RTDB), and you’ll learn how to store and read values from the database with your ESP32.
 
-
 ![TEST_1](https://github.com/user-attachments/assets/1acb2162-ccf9-4aaf-a111-f5c1f19a525d)
-
 
 In a later tutorial, you’ll learn how to create a Firebase web app that you can access from anywhere to monitor and control your ESP32 using Firebase’s real-time database:
 
 ## 1. WHAT IS FIREBASE?
 
-
 ![Copy of Copy of TEMPLATE](https://github.com/user-attachments/assets/bfb16ccd-1dad-4202-9852-3be6f8773dfc)
-
-
 
 Firebase is Google’s mobile application development platform that helps you build, improve, and grow your app. It has many services used to manage data from any Android, IOS, or web application.
 
@@ -29,19 +24,11 @@ In this tutorial, we’ll create a Firebase project with a realtime database, an
 
 This means that you can have two ESP32 boards in different networks, with one board storing data and the other board reading the most recent data, for example.
 
-
-<div align="center">  
-    <img src="https://github.com/user-attachments/assets/71291ecb-2c26-4703-87c9-4ba12bdcf0fd" alt="Image" />  
-</div> 
+![Copy of Copy of TEMPLATE (1)](https://github.com/user-attachments/assets/70cf4caf-aaca-49ff-9ceb-141cd9990072)
 
 In a later tutorial, we’ll create a web app using Firebase that will control the ESP32 to display sensor readings or control outputs from anywhere in the world.
 
-
-<div align="center">  
-    <img src="https://github.com/user-attachments/assets/3f925731-4034-478b-ada4-79c7e037489c" alt="Image" />  
-</div>
-
-
+![Copy of Copy of TEMPLATE (2)](https://github.com/user-attachments/assets/2cf82e1d-a831-4995-828a-8af3db27e388)
 
 ## 2. PROJECT OVERVIEW
 
@@ -378,9 +365,8 @@ Now, you’re all set to start programming the ESP32 board to interact with the 
 
 ## 3. ESP32 STORE DATA TO FIREBASE
 
-<div align="center">  
-    <img src="https://github.com/user-attachments/assets/aef87599-34cd-43ca-ac34-0bde6df5d4fa" alt="Image" />  
-</div> 
+![Copy of Copy of TEMPLATE (3)](https://github.com/user-attachments/assets/266d8dfb-df02-4388-beb9-387558253bb1)
+
 
 Copy the following code to your Arduino IDE. This sketch inserts an int and a float number into the database every 15 seconds. This is a simple example showing you how to connect the ESP32 to the database and store data. [This is also compatible with ESP8266 boards](https://randomnerdtutorials.com/esp8266-nodemcu-firebase-realtime-database/).
 
