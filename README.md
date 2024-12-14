@@ -95,19 +95,23 @@ You need to set authentication methods for your app.
 
 **1.** On the left sidebar, click on **Authentication** and then on **Get started**.
 
-![FIREBASE (3)](https://github.com/user-attachments/assets/5e6d0885-1d75-4f2c-92fb-6bdb5a62b97d)
+![image](https://github.com/user-attachments/assets/e7128f62-0085-4263-840c-f96832c739aa)
+
 
 **2.** There are several authentication methods like email and password, Google Account, Facebook account,
 
-![image](https://github.com/user-attachments/assets/0fb000e6-90e2-410c-a7b9-5b72ad410a95)
+![image](https://github.com/user-attachments/assets/9ab4f3d5-9e2f-476a-8323-0053f5eb6e59)
+
 
 and others.
 
 **3.** For testing purposes, we can select the Anonymous user (require authentication without requiring users to sign in first by creating temporary anonymous accounts). Enable that option and click **Save**.
 
-![FIREBASE (4)](https://github.com/user-attachments/assets/8e9fc7a1-1009-43ab-8e9a-dd0e6dd51302)
+![image](https://github.com/user-attachments/assets/f5d2ffd1-5089-408b-ab1a-fb8b2d276ac6)
 
-![FIREBASE (5)](https://github.com/user-attachments/assets/f80794c4-125e-455c-91b7-2a5fb0a8a4b6)
+
+![image](https://github.com/user-attachments/assets/2cac91cb-8a76-4254-8dd8-17d3c8977feb)
+
 
 **4.** **"Add user"**
 
@@ -128,7 +132,8 @@ and others.
 
  * Ideal for application administrators or developers who need to set up accounts for testing purposes without requiring users to sign up through the normal registration flow.
 
-![FIREBASE (16)](https://github.com/user-attachments/assets/b1e35f59-6945-4071-a667-57f11cf701b5)
+![image](https://github.com/user-attachments/assets/6f3ba24c-a268-4b65-a417-7bc03487ae36)
+
 
 
 **5.** **"Add an Email/Password user"** : This section is specifically designed for adding new users to your Firebase Authentication system using email and password credentials. Here’s a breakdown of its components:
@@ -161,7 +166,8 @@ and others.
 * Administrators who need to create accounts for users without requiring them to use the front-end app.
 * Testing purposes, where developers want to quickly add test users
 
-![FIREBASE (17)](https://github.com/user-attachments/assets/5c8eb977-5b3f-4d5b-8a29-247d6c8939df)
+![image](https://github.com/user-attachments/assets/cf1d989f-80b8-44a5-a386-5b19cfd2b687)
+
 
 **6.** **"Sign-in providers"** : section within the Firebase Authentication settings, specifically focusing on email/password authentication. Here’s a breakdown of its components and purpose:
 
@@ -191,7 +197,8 @@ and others.
     * Enable or disable authentication methods based on the needs of their application.
     * Ensure that user accounts can be created securely and that users can log in easily.
   
-![FIREBASE (18)](https://github.com/user-attachments/assets/71574826-bb0e-4544-965c-ed49abd5cba4)
+![image](https://github.com/user-attachments/assets/4d619979-efce-453c-af00-057dbdcea278)
+
 
 
 ## 3. CREATING A REAL-TIME DATABASE
@@ -200,19 +207,23 @@ The next step is creating a Realtime Database for your project. Follow the next 
 
 **1.** On the left sidebar click on **Realtime Database** and then, click on **Create Database**.
 
-![FIREBASE (6)](https://github.com/user-attachments/assets/33ca9b2e-1e5c-413d-8b02-b5bb305fa441)
+![image](https://github.com/user-attachments/assets/60790b12-2c04-4608-915f-e172767135a8)
+
 
 **2.** Select your database location. It should be the closest to your location.
 
-![FIREBASE (8)](https://github.com/user-attachments/assets/f55023c6-430a-4f36-a623-7b17660ad5cb)
+![image](https://github.com/user-attachments/assets/e758dd59-101d-4add-8bde-a0684aa1189f)
+
 
 **3.** Set up security rules for your database. For testing purposes, select **Start in test mode**. In later tutorials you’ll learn how to secure your database using database rules.
 
-![FIREBASE (9)](https://github.com/user-attachments/assets/fac08d98-5eec-4877-aa7e-897076774304)
+![image](https://github.com/user-attachments/assets/ee9cbc35-e30a-4fa2-b0cf-e103f2eba74a)
+
 
 **4.** Your database is now created. You need to copy and save the database URL—highlighted in the following image—because you’ll need it later in your ESP32 code.
 
-![FIREBASE (10)](https://github.com/user-attachments/assets/cacd89e6-f66b-4e1b-9905-35360efeadc6)
+![image](https://github.com/user-attachments/assets/4ffb063f-34ff-4450-851a-b6fb25e56637)
+
 
 The Realtime Database is all set. Now, you also need to get your project API key.
 
@@ -220,11 +231,13 @@ The Realtime Database is all set. Now, you also need to get your project API key
 
 **1.** To get your project’s API key, on the left sidebar click on **Project Settings**.
 
-![FIREBASE (11)](https://github.com/user-attachments/assets/e8c26ca5-cbe8-495b-b4ee-b33af45888f2)
+![image](https://github.com/user-attachments/assets/87f75a29-af7e-4426-9484-a20718254df4)
+
 
 **2.** Copy the API Key to a safe place because you’ll need it later.
 
-![FIREBASE (12)](https://github.com/user-attachments/assets/21dabf76-0574-43aa-bfae-3acf8ee46e4c)
+![image](https://github.com/user-attachments/assets/67a056e6-c7a1-4bca-aae7-b330de8a404c)
+
 
 Now, you have everything ready to interface the ESP32 with the database.
 
@@ -266,7 +279,8 @@ The `Rules` section of the Firebase Realtime Database. Here’s a breakdown of w
 
  * The structure enables users to store private data without risking exposure to other users of the application.
 
-![FIREBASE (19)](https://github.com/user-attachments/assets/4b3d8919-273b-4d32-b5be-138ee4354288)
+![image](https://github.com/user-attachments/assets/3dc93e0b-3943-486c-9e51-b1188674d2bc)
+
 
  **6. JSON:**
 
@@ -327,13 +341,16 @@ In this tutorial, we’ll look at simple examples to store and read data from th
 
 If you’re using VS Code with the PlatformIO extension, click on the **PIO Home** icon and then select the **Libraries tab**. Search for **“Firebase ESP Client“**. Select the **Firebase Arduino Client Library for ESP8266 and ESP32**.
 
-![FIREBASE (13)](https://github.com/user-attachments/assets/71132c0e-410a-4b24-bc1a-405d03a1b438)
+![image](https://github.com/user-attachments/assets/baa2d5f9-a410-4744-b45c-cbf3bb025826)
+
 
 Then, click **Add to Project** and select the project you’re working on.
 
-![FIREBASE (14)](https://github.com/user-attachments/assets/8b225155-ac91-47af-a48e-3258237bf3b5)
+![image](https://github.com/user-attachments/assets/486238b0-57d8-48b9-9852-ebbb7d3cc8bb)
 
-![image](https://github.com/user-attachments/assets/12a97fca-8b4e-476e-86f1-6ae73eab5543)
+
+![image](https://github.com/user-attachments/assets/81e70888-46eb-44b4-9942-a0d2805d17a8)
+
 
 
 Also, change the monitor speed to 115200 by adding the following line to the `platformio.ini` file of your project:
@@ -355,7 +372,8 @@ If you’re using Arduino IDE, follow the next steps to install the library.
 > We are using version 4.4.14. If you have issues compiling your code with more recent versions of the library, downgrade to version 4.4.14..
 
 
-![FIREBASE (15)](https://github.com/user-attachments/assets/7eac0508-5bf6-4ec2-9ee0-1d760a548682)
+![image](https://github.com/user-attachments/assets/178bdb7d-63b1-41ef-b67a-f285a6105f5a)
+
 
 Now, you’re all set to start programming the ESP32 board to interact with the database.
 
@@ -702,7 +720,8 @@ void loop() {
 ## IV. RESULT
 ## 1. ARDUINO IDE TESTING
 
-![FIREBASE (20)](https://github.com/user-attachments/assets/a429d72c-6746-425a-b737-882916952f91)
+![image](https://github.com/user-attachments/assets/71b35634-e2f7-40db-bf9e-5f0c01081339)
+
 
 The output you shared appears to be from an Arduino IDE Serial Monitor, where your ESP32 is communicating with Firebase. Here’s a breakdown of what each part means:
 
@@ -734,7 +753,8 @@ The output you shared appears to be from an Arduino IDE Serial Monitor, where yo
 
  ## 2. FIREBASE
 
- ![FIREBASE (21)](https://github.com/user-attachments/assets/8dae6971-608e-4807-9951-22bc8849373f)
+![image](https://github.com/user-attachments/assets/954477f2-e91e-44eb-a486-c9d66740e2da)
+
 
 In the Firebase Realtime Database, the displayed data provides a structured view of the sensor readings associated with a specific user. Here's a breakdown of the elements in the image:
  
@@ -760,4 +780,5 @@ In the Firebase Realtime Database, the displayed data provides a structured view
 
 ## V. RESULT ARDUINO COMMUNICATION TO FIREBASE
 
-![FIREBASE (22)](https://github.com/user-attachments/assets/f09b8998-52dc-457f-912e-245210a77a3b)
+![image](https://github.com/user-attachments/assets/6c412521-c3eb-4e7e-acfa-4f69a6b6b336)
+
